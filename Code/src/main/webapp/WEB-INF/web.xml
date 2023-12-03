@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Dream Events Online Event Planning System2</display-name>
+  <servlet>
+    <servlet-name>CreateCustomerAccountController</servlet-name>
+    <servlet-class>com.controllerClasses.CreateCustomerAccountController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateCustomerAccountController</servlet-name>
+    <url-pattern>/CreateCustomerAccountController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>SignInController</servlet-name>
+    <servlet-class>com.controllerClasses.SignInController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignInController</servlet-name>
+    <url-pattern>/SignInController</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>BirthdayPartyRegistrationController</servlet-name>
+    <servlet-class>com.controllerClasses.BirthdayPartyRegistrationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BirthdayPartyRegistrationController</servlet-name>
+    <url-pattern>/BirthdayPartyRegistrationController</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>DeleteBirthdayPartyRegistrationController</servlet-name>
+  <servlet-class>com.controllerClasses.DeleteBirthdayPartyRegistrationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>DeleteBirthdayPartyRegistrationController</servlet-name>
+  <url-pattern>/DeleteBirthdayPartyRegistrationController</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>DisplayRegistrationDetailsController</servlet-name>
+  <servlet-class>com.controllerClasses.DisplayRegistrationDetailsController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>DisplayRegistrationDetailsController</servlet-name>
+  <url-pattern>/DisplayRegistrationDetailsController</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>UpdateBirthdayPartyRegistrationController</servlet-name>
+  <servlet-class>com.controllerClasses.UpdateBirthdayPartyRegistrationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UpdateBirthdayPartyRegistrationController</servlet-name>
+  <url-pattern>/UpdateBirthdayPartyRegistrationController</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

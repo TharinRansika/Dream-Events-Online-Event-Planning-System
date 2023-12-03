@@ -1,0 +1,109 @@
+/* --------------------------   Header -----------------------------  */
+.header{
+    width:100%;
+    height:70px;
+    border:none;
+    background-color: black;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.navigation-button-set{
+    width:600px;
+    height:70px;
+    border: none;
+    background-color:black;
+    display:flex;
+    flex-direction: row;
+}
+.company-name{
+    width:200px;
+    height:70px;
+    border:none;
+    background-color:black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.name{
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight:bold;
+    margin-top: 25px;
+}
+.navigation-button{
+    width:100px;
+    height:70px;
+    background-color:black;
+    border:none;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    cursor:pointer;
+}
+.navigation-button:hover{
+    border:solid 2px white;
+}
+#Sign-In-button{
+    background-color: white;
+    color:black;
+}
+#Sign-In-button:hover{
+    border:solid 2px black;
+}
+
+/*------------------------------- Background-image --------------------------*/
+.image{
+    background-image: url("../images/party02.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height:600px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+.sign-in-form{
+    width:400px;
+    height:200px;
+    border:none;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.sign-in-form-input-field{
+    width:280px;
+    height:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    /*outline:none;*/
+}
+.sign-in-form-input-field::placeholder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sign-in-form-button{
+   width:100px;
+   height:50px;
+   border-radius: 30px;
+   border:1px black solid;
+   transition: box-shadow 0.5s;
+   font-size: 16px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   cursor: pointer;
+}
+.sign-in-form-button:hover{
+    box-shadow: 2px 2px 2px  black;
+}
+
+/*---------------------------------  Footer  --------------------------------*/
+.footer{
+    width:100%;
+    height:70px;
+    background-color: black;
+}
